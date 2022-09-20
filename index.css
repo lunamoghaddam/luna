@@ -1,0 +1,134 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    background-color:rgba(209, 150, 150, 0.89);
+
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    background-color: rgba(200, 141, 141, 0.56);
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: rgb(77, 58, 58);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    height: 3rem;
+}
+
+.header .button1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(149, 100, 82);
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    padding-bottom: 10px;
+
+}
+
+.header .button2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(251, 248, 246);
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 20rem;
+    padding-bottom: 10px;
+    
+}
+ 
+.main {
+    display: flex;
+    flex: 1;
+    background-color:rgba(172, 127, 127, 0.745);
+}
+
+.main .ax1 {
+    position: absolute;
+    top: 24rem;
+    left: 9rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0;
+    border-width: 20px;
+    
+}
+
+.main .ax2 {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0;
+    border: 1rem;
+    border-width: 20px;
+
+}
+
+
+.main .ax3 {
+    position: absolute;
+    top: 7rem;
+    left: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0;
+    border: 1rem;
+
+}
+
+
+.main .ax4 {
+    position: absolute;
+    top: 25rem;
+    left: 22rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0;
+    border: 1rem;
+
+}
+
+
+.main .ax5 {
+    position: absolute;
+    top: 11rem;
+    left: 28rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0;
+    border: 1rem;
+}
