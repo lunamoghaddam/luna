@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Luna</title>
+    <title>Luna | Projects</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -20,15 +20,41 @@
         </div>
         <div class="main">
             <div class="items">
-                <div class="embeded-img circle-1"></div>
-                <div class="embeded-img circle-2"></div>
-                <div class="embeded-img circle-3"></div>
-                <div class="embeded-img circle-4"></div>
-                <div class="embeded-img circle-5"></div>
+                <div class="row">
+                    <div class="proj circle-1">
+                        <div class="img" style="background-image: url('./assets/img/m1.webp');"></div>
+                        <h3>PROJECT</h3>
+                    </div>
+                    <div class="proj circle-2 stroke">
+                        <div class="img" style="background-image: url('./assets/img/m2.webp');"></div>
+                        <h3>PROJECT</h3>
+                    </div>
+                    <div class="proj circle-3 stroke">
+                        <div class="img" style="background-image: url('./assets/img/m3.webp');"></div>
+                        <h3>PROJECT</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="proj circle-4">
+                        <div class="img" style="background-image: url('./assets/img/m4.webp');"></div>
+                        <h3>PROJECT</h3>
+                    </div>
+                    <div class="proj circle-5 stroke">
+                        <div class="img" style="background-image: url('./assets/img/m5.webp');"></div>
+                        <h3>PROJECT</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="modal">
+        <div class="modal-header row">
+            <div class="row-spacer"></div>
+            <i class="close-btn material-icons">close</i>
+        </div>
+        <img class="modal-image" />
     </div>
+    <script type="text/javascript" src="./assets/main.js"></script>
 </body>
 
 </html>
